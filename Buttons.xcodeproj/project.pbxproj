@@ -112,8 +112,6 @@
 		C5960B5D19BA022D00204479 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				C5960B6619BA022D00204479 /* AppDelegate.h */,
-				C5960B6719BA022D00204479 /* AppDelegate.m */,
 				C5960B6919BA022D00204479 /* Main.storyboard */,
 				C5960B6C19BA022D00204479 /* ViewController.h */,
 				C5960B6D19BA022D00204479 /* ViewController.m */,
@@ -126,6 +124,8 @@
 		C5960B5E19BA022D00204479 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5960B6619BA022D00204479 /* AppDelegate.h */,
+				C5960B6719BA022D00204479 /* AppDelegate.m */,
 				C5960B5F19BA022D00204479 /* Buttons-Info.plist */,
 				C5960B6019BA022D00204479 /* InfoPlist.strings */,
 				C5960B6319BA022D00204479 /* main.m */,
