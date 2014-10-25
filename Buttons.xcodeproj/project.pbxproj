@@ -21,6 +21,7 @@
 		C5960B7919BA022D00204479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5960B5B19BA022D00204479 /* UIKit.framework */; };
 		C5960B8119BA022D00204479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5960B7F19BA022D00204479 /* InfoPlist.strings */; };
 		C5960B8319BA022D00204479 /* ButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5960B8219BA022D00204479 /* ButtonsTests.m */; };
+		C5B01A6B19E03F0B007583A7 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B01A6A19E03F0B007583A7 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C5960B7E19BA022D00204479 /* ButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonsTests-Info.plist"; sourceTree = "<group>"; };
 		C5960B8019BA022D00204479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5960B8219BA022D00204479 /* ButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsTests.m; sourceTree = "<group>"; };
+		C5B01A6919E03F0B007583A7 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		C5B01A6A19E03F0B007583A7 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				C5960B6919BA022D00204479 /* Main.storyboard */,
+				C5B01A6919E03F0B007583A7 /* NewViewController.h */,
+				C5B01A6A19E03F0B007583A7 /* NewViewController.m */,
 				C5960B6C19BA022D00204479 /* ViewController.h */,
 				C5960B6D19BA022D00204479 /* ViewController.m */,
 				C5960B6F19BA022D00204479 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				C5960B6E19BA022D00204479 /* ViewController.m in Sources */,
 				C5960B6819BA022D00204479 /* AppDelegate.m in Sources */,
 				C5960B6419BA022D00204479 /* main.m in Sources */,
+				C5B01A6B19E03F0B007583A7 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				C5960B8819BA022D00204479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5960B8919BA022D00204479 /* Build configuration list for PBXNativeTarget "ButtonsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				C5960B8B19BA022D00204479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
